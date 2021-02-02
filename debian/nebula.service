@@ -1,0 +1,15 @@
+[Unit]
+Description=Nebula Overlay Network
+After=network.target
+
+[Service]
+User=nebula
+EnvironmentFile=-/etc/default/nebula
+ExecStart=/usr/local/bin/nebula -config /etc/nebula/config.yml
+ExecReload=/usr/local/bin/nebula -test -config /etc/nebula/config.yml
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+AmbientCapabilities=CAP_NET_ADMIN
+
+[Install]
+WantedBy=multi-user.target

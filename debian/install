@@ -1,0 +1,3 @@
+nebula usr/bin
+nebula-cert usr/bin
+config.yml etc/nebula
