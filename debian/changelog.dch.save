@@ -1,0 +1,11 @@
+nebula (1.3.0-2) xenial; urgency=medium
+u
+  * 
+
+ -- Gabe Van Engel <gvengel@array.schizoid.net>  Fri, 05 Feb 2021 08:27:20 +0000
+
+nebula (1.3.0-1) xenial; urgency=medium
+
+  * Initial packaging.
+
+ -- Gabe Van Engel <gabe@schizoid.net>  Tue, 02 Feb 2021 06:55:59 +0000

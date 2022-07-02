@@ -1,3 +1,16 @@
+nebula (1.6.0-1) focal; urgency=medium
+
+  * Update to nebula 1.6.0.
+
+ -- Gabe Van Engel <gabe@schizoid.net>  Sat, 02 Jul 2022 05:24:53 +0000
+
+nebula (1.3.0-2) xenial; urgency=medium
+
+  * Update systemd unit to allow DNS.
+  * Send logs to syslog.
+
+ -- Gabe Van Engel <gvengel@schizoid.net>  Fri, 05 Feb 2021 08:31:30 +0000
+
 nebula (1.3.0-1) xenial; urgency=medium
 
   * Initial packaging.
