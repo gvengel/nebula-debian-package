@@ -1,3 +1,15 @@
+nebula (1.9.5-1) focal; urgency=medium
+
+  * Update to 1.9.5
+
+ -- Gabe Van Engel <gabe@schizoid.net>  Fri, 27 Apr 2025 01:21:13 -0700
+
+nebula (1.7.2-1) focal; urgency=medium
+
+  * Update to 1.7.2
+
+ -- Gabe Van Engel <gabe@schizoid.net>  Fri, 23 Jun 2023 00:15:24 +0000
+
 nebula (1.6.0-2) focal; urgency=medium
 
   * Fix conffile path

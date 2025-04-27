@@ -13,9 +13,6 @@ PreExecStart=/usr/bin/nebula -test -config /etc/nebula/config.yml
 ExecStart=/usr/bin/nebula -config /etc/nebula/config.yml
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=always
-SyslogIdentifier=nebula
-StandardOutput=syslog
-StandardError=syslog
 
 [Install]
 WantedBy=multi-user.target
