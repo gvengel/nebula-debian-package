@@ -2,7 +2,7 @@
 
 all: build
 
-VERSION=1.9.5
+VERSION=1.9.7
 ARCH=amd64
 BUILD_DIR=nebula-$(VERSION)
 
